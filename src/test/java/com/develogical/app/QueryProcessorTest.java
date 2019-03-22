@@ -28,4 +28,9 @@ public class QueryProcessorTest {
     public void containsHeroku() throws Exception {
         assertThat(queryProcessor.process("heroku"), containsString("heroku"));
     }
+
+    @Test
+    public void containsUpperCaseOnline() throws Exception {
+        assertThat(queryProcessor.process("online application"), containsString("ONLINE"));
+    }
 }
