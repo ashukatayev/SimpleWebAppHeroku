@@ -10,8 +10,8 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("heroku")) {
             return "heroku";
         }
-        if (query.toUpperCase().contains("ONLINE")) {
-            return "ONLINE_applcation";
+        if (query.toUpperCase().contains("WEB")) {
+            return "WEB_applcation";
         }
         return "";
     }

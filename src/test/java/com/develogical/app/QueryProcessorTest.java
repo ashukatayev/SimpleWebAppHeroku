@@ -31,6 +31,6 @@ public class QueryProcessorTest {
 
     @Test
     public void containsUpperCaseOnline() throws Exception {
-        assertThat(queryProcessor.process("online_application"), containsString("ONLINE"));
+        assertThat(queryProcessor.process("WEB_application"), containsString("WEB"));
     }
 }
