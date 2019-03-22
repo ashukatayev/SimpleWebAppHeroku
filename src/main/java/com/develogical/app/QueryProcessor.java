@@ -11,7 +11,7 @@ public class QueryProcessor {
             return "heroku";
         }
         if (query.toUpperCase().contains("ONLINE")) {
-            return "ONLINE applcation";
+            return "ONLINE_applcation";
         }
         return "";
     }
